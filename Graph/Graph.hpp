@@ -1,32 +1,6 @@
 #pragma once
 #include <bits/stdc++.h>
 
-#define int long long
-#ifndef rint
-#define rint register int
-#endif
-#ifndef up
-#define up(v,s,t,st) for(rint v=s;v<=t;v+=st)
-#endif
-#ifndef dn
-#define dn(v,s,t,st) for(rint v=s;v<t;v+=st)
-#endif
-#ifndef du
-#define du(v,s,t,st) for(rint v=t;v>=s;v-=st)
-#endif
-#ifndef dl
-#define dl(v,s,t,st) for(rint v=t;v>s;v-=st)
-#endif
-#ifndef ite
-#define ite(v, cont) for(const auto& v:cont)
-#endif
-#ifndef aite
-#define aite(v, cont) for(auto &v:cont)
-#endif
-#ifndef sp
-#define sp(t) (!(t&(t-1)))
-#endif
-
 using namespace std;
 
 namespace zty

@@ -1,22 +1,6 @@
 #pragma once
 #include <bits/stdc++.h>
 #include "Moding.hpp"
-#define int long long
-#define rint register int
-
-#define up(v, s, t, st) for (rint v = s; v <= t; v += st)
-#define dn(v, s, t, st) for (rint v = s; v < t; v += st)
-#define du(v, s, t, st) for (rint v = t; v >= s; v -= st)
-#define dl(v, s, t, st) for (rint v = t; v > s; v -= st)
-#define ite(v, cont) for (const auto &v : cont)
-#define aite(v, cont) for (auto &v : cont)
-#define sp(t) (!(t & (t - 1)))
-
-const int placeholder = 1145141919810;
-const int mod = 1e9 + 7;
-const int maxn = 110;
-const int inf = mod + 1;
-const int N = 1e6 + 10;
 
 using namespace std;
 
