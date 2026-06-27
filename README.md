@@ -32,7 +32,7 @@ public:
 - `Graph/Graph.hpp` only defines graph storage, traversal, and node information. Shortest path algorithms are in `Graph/ShortestPath.hpp`.
 - `Graph/GraphTools.hpp` contains additional graph algorithms such as cycle detection, SCC, condensation graph, bridges/articulation points, Kruskal, and Dinic.
 - `String/StringMatching.hpp` contains KMP and AC automaton. The AC automaton depends on `String/Trie.hpp`.
-- `Matrix.hpp` is kept at the root because it is a math/linear-algebra module, not a data-structure module.
+- Math modules live under `Math/`, including `Matrix.hpp`, `Moding.hpp`, and `Prime.hpp`.
 
 ## Debug Compatibility
 
